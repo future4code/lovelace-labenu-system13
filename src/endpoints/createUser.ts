@@ -30,7 +30,7 @@ export default async function createUser(
          res.send(error)
       } else {
          
-         console.log(error.sqlMessage || error.message);
+        // console.log(error.sqlMessage || error.message);
          res.status(500).send("Ops! Um erro inesperado ocorreu =/")
       }
 
